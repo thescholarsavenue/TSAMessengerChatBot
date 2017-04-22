@@ -45,7 +45,7 @@ app.post('/webhook/', function (req, res) {
     res.sendStatus(200)
 })
 
-const token = process.env.FB_PAGE_ACCESS_TOKEN
+const token = "EAAX2Jr5OPgwBAPylgT24lfZCWyN5cocHEjG8HWuGMbkZA28xRylMNJHneOZBZBh4eKmvCJHW3AiqLhekC97hVSynekU8eDllMkHhcKggP9euSnVTj64hZBoyZBjtC3jrlOdtcWIIuhjZBlW6kpjwyGXhgBMSl6wDbNSUPyRPEADoQZDZD"
 
 function sendTextMessage(sender, text) {
     let messageData = { text:text }
